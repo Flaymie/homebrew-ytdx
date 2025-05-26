@@ -4,7 +4,7 @@ class Ytdx < Formula
   desc "Загрузчик видео с YouTube"
   homepage "https://github.com/flaymie/ytdx"
   url "https://github.com/flaymie/ytdx/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000" # Это нужно будет заменить на реальный хеш после публикации
+  sha256 "3e744ba1eae24323eccbfd79da5fdc971ff7ee1a099ea4410a999490c5d9534a"
   license "MIT"
 
   depends_on "python@3.10"
