@@ -11,8 +11,8 @@ class Ytdx < Formula
   depends_on "ffmpeg"
 
   resource "yt-dlp" do
-    url "https://files.pythonhosted.org/packages/be/7e/7f65a3c6ac14b5cf79a15b05c34e8450eecaf3a2edd8bd08c333aa9a5537/yt_dlp-2023.3.4-py2.py3-none-any.whl"
-    sha256 "5e0e3810272d4641a7df8a88e0d6fd047d90baafb02c02c6ac527fabfcce701d"
+    url "https://files.pythonhosted.org/packages/25/68/4f108193ebce3ee7beb5f9a21daa6bc875e261150b510be468626f151959/yt_dlp-2025.5.22-py3-none-any.whl"
+    sha256 "a49c4b76afeaded6254c3e2b759d8d5a13271aa963d5fccb51fe059d1c313151"
   end
 
   def install
