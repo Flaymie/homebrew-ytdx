@@ -1,7 +1,7 @@
 class Ytdx < Formula
   include Language::Python::Virtualenv
 
-  desc "Загрузчик видео с YouTube"
+  desc "YouTube video downloader"
   homepage "https://github.com/flaymie/ytdx"
   url "https://github.com/flaymie/ytdx/archive/refs/tags/v1.0.0.tar.gz"
   sha256 "2a6b5ad01b55717028ab3a5ddf794611e79343238f3d75db21af72f75c46ea0f"
