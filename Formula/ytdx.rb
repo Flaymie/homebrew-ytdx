@@ -3,8 +3,8 @@ class Ytdx < Formula
 
   desc "Загрузчик видео с YouTube"
   homepage "https://github.com/flaymie/ytdx"
-  url "https://github.com/flaymie/ytdx/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "3e744ba1eae24323eccbfd79da5fdc971ff7ee1a099ea4410a999490c5d9534a"
+  url "https://github.com/flaymie/ytdx/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "9d1fc3161278912a1b19fe9dc06d493ab1128419696da07ae6d518584bcf02cf"
   license "MIT"
 
   depends_on "python@3.10"
