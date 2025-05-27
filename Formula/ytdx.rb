@@ -7,8 +7,8 @@ class Ytdx < Formula
   sha256 "2a6b5ad01b55717028ab3a5ddf794611e79343238f3d75db21af72f75c46ea0f"
   license "MIT"
 
-  depends_on "python@3.10"
   depends_on "ffmpeg"
+  depends_on "python@3.10"
 
   resource "yt-dlp" do
     url "https://files.pythonhosted.org/packages/25/68/4f108193ebce3ee7beb5f9a21daa6bc875e261150b510be468626f151959/yt_dlp-2025.5.22-py3-none-any.whl"
@@ -22,4 +22,4 @@ class Ytdx < Formula
   test do
     system bin/"ytdx", "--help"
   end
-end 
+end
